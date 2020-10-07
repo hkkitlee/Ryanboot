@@ -8,7 +8,6 @@ https://hkkitlee.ddns.net:9000
 
 
 (D) Boot REMOTE CONTROL system Menu
-
 P2P Boot Auto Remote Debian Live for Data Rescue（P2P啟動；硬盤壞軌讀取，救援誤刪系統。）
 Boot Win10PE_x64 w/VNC#（Winpe不用多說了吧）
 Install Centos7.6 1810 via VNC by Kit#（安裝Centos Linux)
