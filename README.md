@@ -36,5 +36,6 @@ Install Debian10.4 amd64
 Install Current Parrot-Linux amd64
 Install Current Parrot-Linux i386
 Install Current Kali-Linux amd64
+
 Install Current Kali-Linux i386
 
