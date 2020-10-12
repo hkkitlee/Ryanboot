@@ -1,12 +1,14 @@
 Ryanboot - 小白云系統
 
 http://bbs.wuyou.net/forum.php?mod=viewthread&tid=415206&extra=page%3D1
+
 https://hkkitlee.ddns.net:9000
 
 可啟動項目:
-(A)RyanTC mini pxe server
-(B)Tinycore v11 desktop 桌面連 pxe 伺服器
-(C)Boot Clonezilla for Backup / Restore via ssh#（啟動Clonezilla Live備份/還原。比Ghost功能更強更多x999999。推薦）
+
+(A)RyanTC mini pxe server.
+(B)Tinycore v11 desktop 桌面連 pxe 伺服器.
+(C)Boot Clonezilla for Backup / Restore via ssh#（啟動Clonezilla Live備份/還原。比Ghost功能更強更多x999999。推薦）.
 
 
 (D) Boot REMOTE CONTROL system Menu
