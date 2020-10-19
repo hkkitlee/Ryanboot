@@ -1,8 +1,8 @@
 ## Ryanboot - 小白云系統
 
-https://hkkitlee.ddns.net:9000/
+主頁/index: https://hkkitlee.ddns.net:9000/
 
-http://bbs.wuyou.net/forum.php?mod=viewthread&tid=415206&extra=page%3D1
+論壇/forum: http://bbs.wuyou.net/forum.php?mod=viewthread&tid=415206&extra=page%3D1
 
 Available boot 可啟動項目:
 
