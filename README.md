@@ -38,7 +38,7 @@ Ryanboot ##小白云端系統啟動首頁
 |       |---(B) Boot Clonezilla for Backup / Restore ##再生龍備份/還原。終端中使用partclone的備份軟件
 |       |---(C) Boot REMOTE CONTROL system Menu ##遠程被控項目
 |       |       |---(1) P2P BOOT Debian 10 Buster Installer or Live for Data Rescue  ##(P2P啟動RPBL；硬盤壞軌讀取，救援誤刪系統。)
-|       |       |---(2) Tinycore v11 Desktop ##桌面、ipxe編譯環境、連 pxe 伺服器
+|       |       |---(2) Tinycore v11 Desktop ##桌面、ipxe編譯環境、連 pxe 伺服器、硬盤壞軌讀取，救援誤刪系統。
 |       |       |---(3) Boot Win10PE_x64 w/VNC  ##(Winpe不用多說了吧)
 |       |       |---(4) Install Centos7 via VNC by Kit  ##(安裝Centos Linux)
 |       |       |---(5) Install Fedora via VNC by Kit ##(安裝Fedora Linux)
