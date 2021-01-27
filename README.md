@@ -7,7 +7,8 @@
 * 論壇/forum: http://bbs.wuyou.net/forum.php?mod=viewthread&tid=415206&extra=page%3D1
 * 詳細圖文教學使用 https://hkkitlee.ddns.net:9000/setup.html
 * Changlog:https://hkkitlee.ddns.net:9000/changelog.txt
-* 從你的iPXE伺服器連接至小白雲端啟動系統。dhcp && chain --autofree http://hkkitlee.ddns.net:8999/chain.ipxe
+* 從你的iPXE伺服器連接至小白雲端啟動系統。
+``` dhcp && chain --autofree http://hkkitlee.ddns.net:8999/chain.ipxe ```
 
 # 請注意！請注意！請注意！
 ##### 本軟件的部分系統(Remote control by server)現時開放權限為自動執行遠程連線！（給我的小白朋友用）不是駭客入侵。機器前也是可以透明操作的
