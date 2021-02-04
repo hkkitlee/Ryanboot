@@ -34,6 +34,7 @@
 
 ##### 名稱username：wuyou  密碼passwd：hkkitlee
 
+https://github.com/hkkitlee/Ryanboot/blob/main/rescue.md
 
 # https://github.com/hkkitlee/P2P-Boot-Linux
 
