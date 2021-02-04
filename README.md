@@ -62,7 +62,6 @@ Ryanboot ##小白云端系統啟動首頁
 |       |       |---(7) Cinnamon
 |       |       |---(Ctrl-R) Return to First Menu ##返回首頁
 |       |
-|       |---Testing Area (Restricted)
 |       |---(Ctrl-R) Return to First Menu ##返回首頁
 |
 |---(C)Linux Installer or netboot.xyz (24/7)
@@ -71,9 +70,9 @@ Ryanboot ##小白云端系統啟動首頁
 |       |---(C) Install Debian amd64/i386 @
 |       |---(D) Install Parrot-Linux amd64/i386
 |       |---(E) Install Kali-Linux amd64/i386
-|       |---(F) Install Arch Linux amd64
-|       |---(G) Install Arch Linux amd64 by script
-|       |---(H) Install Oracle Linux amd64
+|       |---(F) Arch Linux amd64 Live with Option Installer
+|       |---(G) Tinycore amd64/i386
+|       |---(H) Alpine chain amd64/i386
 |       |---netboot.xyz
 |---Free Memtest ##記憶體測試
 ```
