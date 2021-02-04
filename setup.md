@@ -6,7 +6,8 @@ Caution!!!Please backup your usb key before write, otherwise all data will lost!
 
 溫馨提示!!!請先備份好USB內的內容, 否則是會導至USB內的文件隕失!!!
 
-ryan.zip Download and unzip the USB ZIP image, get ryan.usb.請下載此行第一個藍色的ryan.zip,並解壓縮得到ryan.usb
+ryan.zip：http://hkkitlee.ddns.net:8999/ryan.zip
+Download and unzip the USB ZIP image, get ryan.usb.請下載此行第一個藍色的ryan.zip,並解壓縮得到ryan.usb
 
 https://github.com/pbatard/rufus/releases/download/v3.5/rufus-3.5p.exe
 
