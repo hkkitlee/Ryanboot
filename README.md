@@ -6,7 +6,8 @@
 * 備用下載：http://hkkitlee.ddns.net:8999/ryan.zip
 * 論壇/forum: http://bbs.wuyou.net/forum.php?mod=viewthread&tid=415206&extra=page%3D1
 * 詳細圖文教學使用 https://hkkitlee.ddns.net:9000/setup.html
-* Changlog:https://hkkitlee.ddns.net:9000/changelog.txt
+* Changlog: https://github.com/hkkitlee/Ryanboot/blob/main/changelog.txt
+* 啟動總覽Map: https://github.com/hkkitlee/Ryanboot/blob/main/map.txt
 * 從你的iPXE伺服器連接至小白雲端啟動系統。
 ``` dhcp && chain --autofree http://hkkitlee.ddns.net:8999/chain.ipxe ```
 
@@ -33,7 +34,6 @@
 
 ##### 名稱username：wuyou  密碼passwd：hkkitlee
 
-* 啟動總覽Map: https://github.com/hkkitlee/Ryanboot/blob/main/map.txt
 
 # https://github.com/hkkitlee/P2P-Boot-Linux
 
