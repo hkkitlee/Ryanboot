@@ -22,3 +22,7 @@ Photo from : https://www.pcbuyerbeware.co.uk/wp-content/uploads/2014/05/AwardBIO
 
 <img src="https://www.billionwallet.com/windows10/images5/ueif-bios1.png" />
 Photo from : https://www.billionwallet.com/windows10/images5/ueif-bios1.png
+
+## Third: .Please plug your ethernet cable (cat 5/6) between your PC and router, ethernet port like below.請插入網線井連接你家的路由/光貓
+<img src="https://www.lifewire.com/thmb/ZOZ-5GKiprkKtsDUAq3W0VAjnVI=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/149238278-56a1ad765f9b58b7d0c19fe8.jpg" />
+Photo from : https://www.lifewire.com/thmb/ZOZ-5GKiprkKtsDUAq3W0VAjnVI=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/149238278-56a1ad765f9b58b7d0c19fe8.jpg
