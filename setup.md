@@ -8,6 +8,8 @@ Caution!!!Please backup your usb key before write, otherwise all data will lost!
 
 ryan.zip Download and unzip the USB ZIP image, get ryan.usb.請下載此行第一個藍色的ryan.zip,並解壓縮得到ryan.usb
 
+https://github.com/pbatard/rufus/releases/download/v3.5/rufus-3.5p.exe
+
 <img src="https://rufus.ie/pics/rufus_en.png" />
 
 Linux可使用dd。
