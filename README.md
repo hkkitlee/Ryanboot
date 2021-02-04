@@ -33,49 +33,7 @@
 
 ##### 名稱username：wuyou  密碼passwd：hkkitlee
 
-```
-可啟動項目:
-
-
-Ryanboot ##小白云端系統啟動首頁
-|---(A) Boot byYour Network MAC address ##使用網卡唯一識別碼自動啟動
-|---(B) Login for Install or live LINUX/WINDOWS ##登入伺服器
-|       |---(A) RyanTC mini PXE Server  ##文本終端pxe 伺服器
-|       |---(B) Boot Clonezilla for Backup / Restore ##再生龍備份/還原。終端中使用partclone的備份軟件
-|       |---(C) Boot REMOTE CONTROL system Menu ##遠程被控項目
-|       |       |---(1) P2P BOOT Debian 10 Buster Installer or Live for Data Rescue  ##(P2P啟動RPBL；硬盤壞軌讀取，救援誤刪系統。)
-|       |       |---(2) Tinycore v11 Desktop ##桌面、ipxe編譯環境、連 pxe 伺服器、硬盤壞軌讀取，救援誤刪系統。
-|       |       |---(3) Boot Win10PE_x64 w/VNC  ##(Winpe不用多說了吧)
-|       |       |---(4) Install Centos7 via VNC by Kit  ##(安裝Centos Linux)
-|       |       |---(5) Install Fedora via VNC by Kit ##(安裝Fedora Linux)
-|       |       |---(6) Boot Redo rescue for Backup / Restore ##桌面中使用partclone桌面的備份軟件
-|       |       |---(Ctrl-R) Return to First Menu ##返回首頁
-|       |
-|       |---(D) P2P Boot Official Debian Buster Live Menu ##BT/p2p啟動Debian官方桌面版本項目
-|       |       |---(0) Lxqt
-|       |       |---(1) Gnome
-|       |       |---(2) Kde
-|       |       |---(3) Lxde
-|       |       |---(4) Mate
-|       |       |---(5) Standard
-|       |       |---(6) Xfce
-|       |       |---(7) Cinnamon
-|       |       |---(Ctrl-R) Return to First Menu ##返回首頁
-|       |
-|       |---(Ctrl-R) Return to First Menu ##返回首頁
-|
-|---(C)Linux Installer or netboot.xyz (24/7)
-|       |---(A) Install Ubuntu amd64/i386 @
-|       |---(B) Install Fedora amd64 @
-|       |---(C) Install Debian amd64/i386 @
-|       |---(D) Install Parrot-Linux amd64/i386
-|       |---(E) Install Kali-Linux amd64/i386
-|       |---(F) Arch Linux amd64 Live with Option Installer
-|       |---(G) Tinycore amd64/i386
-|       |---(H) Alpine chain amd64/i386
-|       |---netboot.xyz
-|---Free Memtest ##記憶體測試
-```
+*啟動總覽Map: https://github.com/hkkitlee/Ryanboot/blob/main/map.txt
 
 # https://github.com/hkkitlee/P2P-Boot-Linux
 
