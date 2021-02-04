@@ -10,6 +10,7 @@ ryan.zip Download and unzip the USB ZIP image, get ryan.usb.請下載此行第�
 
 <img src="https://rufus.ie/pics/rufus_en.png" />
 
+Linux可使用dd。
 
 ## Second: We are going to prepare the bootloader and config your computer bios/uefi to boot from the image.
 
