@@ -33,7 +33,7 @@
 
 ##### 名稱username：wuyou  密碼passwd：hkkitlee
 
-*啟動總覽Map: https://github.com/hkkitlee/Ryanboot/blob/main/map.txt
+* 啟動總覽Map: https://github.com/hkkitlee/Ryanboot/blob/main/map.txt
 
 # https://github.com/hkkitlee/P2P-Boot-Linux
 
