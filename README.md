@@ -5,7 +5,7 @@
 * 下載：https://hkkitlee.ddns.net:9000/ryan.zip
 * 備用下載：http://hkkitlee.ddns.net:8999/ryan.zip
 * 論壇/forum: http://bbs.wuyou.net/forum.php?mod=viewthread&tid=415206&extra=page%3D1
-* 詳細圖文教學使用 https://hkkitlee.ddns.net:9000/setup.html
+* 詳細圖文教學使用 https://github.com/hkkitlee/Ryanboot/blob/main/setup.md
 * Changlog: https://github.com/hkkitlee/Ryanboot/blob/main/changelog.txt
 * 啟動總覽Map: https://github.com/hkkitlee/Ryanboot/blob/main/map.txt
 * 從你的iPXE伺服器連接至小白雲端啟動系統。
