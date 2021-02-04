@@ -1,5 +1,5 @@
 Changelog:
-20210204:(H) Alpine chain amd64/i386
+20210204:(H) Alpine amd64/i386
 
 20210125:增加後備下載；主伺服器下線時副伺服器（24/7）亦可提供官方Linux安裝。
 
