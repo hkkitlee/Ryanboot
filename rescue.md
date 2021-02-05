@@ -1,7 +1,12 @@
-# 整個過程沒有掛載"受傷"的硬盤,同時此Linux是網絡啟動運行,所以不存在進一步的對硬盤「誤操作」
+# (B) > (C) > (1,2)
+* (1) P2P BOOT Debian 10 Buster Installer or Live for Data Rescue  ##(P2P啟動RPBL；硬盤壞軌讀取，救援誤刪系統。)
+* (2) Tinycore v11 Desktop ##桌面、ipxe編譯環境、連 pxe 伺服器、硬盤壞軌讀取，救援誤刪系統。
+
+
+## 整個過程沒有掛載"受傷"的硬盤,同時此Linux是網絡啟動運行,所以不存在進一步的對硬盤「誤操作」
 Linux / testdisk / ddrescue都是沒有版權問題的開源軟件。
-http://www.gnu.org/software/ddrescue/ddrescue.html
-http://www.cgsecurity.org/wiki/PhotoRec
+* http://www.gnu.org/software/ddrescue/ddrescue.html
+* http://www.cgsecurity.org/wiki/PhotoRec
 
 ## DDrescue支援介面:
 * ATA
