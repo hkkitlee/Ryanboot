@@ -1,5 +1,5 @@
 Changelog:
-20210208:感謝神雕師兄幫忙提供核心等啟動文件，完美啟動
+20210208:感謝神雕師兄幫忙提供核心等啟動文件，完美啟動SliTaz
 http://bbs.wuyou.net/forum.php?mod=redirect&goto=findpost&ptid=190810&pid=4236268&fromuid=678562
 
 20210205:(I) SliTaz rolling amd64/i386
