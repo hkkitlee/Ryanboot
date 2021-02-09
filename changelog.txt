@@ -1,4 +1,6 @@
 Changelog:
+20210209:更新官方Debian Live 10.8
+
 20210208:感謝神雕師兄幫忙提供SliTaz核心等漢化啟動文件，完美啟動
 http://bbs.wuyou.net/forum.php?mod=redirect&goto=findpost&ptid=190810&pid=4236268&fromuid=678562
 
