@@ -1,4 +1,6 @@
 Changelog:
+20210211:新增：(J) Install openSUSE amd64/i386
+
 20210209:更新官方Debian Live 10.8
 
 20210208:感謝神雕師兄幫忙提供SliTaz核心等漢化啟動文件，完美啟動
