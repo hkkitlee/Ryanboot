@@ -29,17 +29,17 @@ Ryanboot ##小白云端系統啟動首頁
 |       |---(Ctrl-R) Return to First Menu ##返回首頁
 |
 |---(C)Linux Installer or netboot.xyz (24/7)
-|	|---(A) Install Ubuntu amd64/i386 @
-|	|---(B) Install Fedora amd64 @
-|	|---(C) Install Debian amd64/i386 @
-|	|---(D) Install Parrot-Linux amd64/i386
-|	|---(E) Install Kali-Linux amd64/i386
-|	|---(F) Arch Linux amd64 Live with Option Installer
-|	|---(G) Tinycore amd64/i386
-|	|---(H) Alpine amd64/i386
-| |---(I) SliTaz rolling amd64/i386 (Support by teasiu@bbs.wuyou.net)
-| |---(J) Install openSUSE amd64/i386
-|	|---netboot.xyz
+|   |---(A) Install Ubuntu amd64/i386 @
+|   |---(B) Install Fedora amd64 @
+|   |---(C) Install Debian amd64/i386 @
+|   |---(D) Install Parrot-Linux amd64/i386
+|   |---(E) Install Kali-Linux amd64/i386
+|   |---(F) Arch Linux amd64 Live with Option Installer
+|   |---(G) Tinycore amd64/i386
+|   |---(H) Alpine amd64/i386
+|   |---(I) SliTaz rolling amd64/i386 (Support by teasiu@bbs.wuyou.net)
+|   |---(J) Install openSUSE amd64/i386
+|   |---netboot.xyz
 |---Free Memtest ##記憶體測試
 
 
