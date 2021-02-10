@@ -37,7 +37,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|---(F) Arch Linux amd64 Live with Option Installer
 |	|---(G) Tinycore amd64/i386
 |	|---(H) Alpine amd64/i386
-|       |---(I) SliTaz rolling amd64/i386 (Support by teasiu@bbs.wuyou.net)
+| |---(I) SliTaz rolling amd64/i386 (Support by teasiu@bbs.wuyou.net)
+| |---(J) Install openSUSE amd64/i386
 |	|---netboot.xyz
 |---Free Memtest ##記憶體測試
 
