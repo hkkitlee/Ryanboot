@@ -74,8 +74,12 @@ pxe-service=IA32_EFI, "Boot BC_EFI", efi64/efi/syslinux.efi
 pxe-service=BC_EFI, "Boot BC_EFI", efi64/efi/syslinux.efi
 pxe-service=X86-64_EFI, "Boot X86-64", efi64/efi/syslinux.efi
 
-dhcp-range=192.168.2.5,proxy#*******這個就是設定為dhcp-proxy啟動，留意ip值是否適用,並沒有設子掩碼以盡量回應。
 EOF
+
+ip=$(/sbin/ifconfig |grep -v 127 | grep 'inet ' | sed 's/^.*inet addr://g' | sed 's/ Bcast.$//g')
+
+echo "dhcp-range=$ip,proxy" >> /etc/dnsmasq.conf
+
 ``` 
 
 上面dnsmasq.conf中，在/var/lib/tftpboot下創建兩個新的資料夾，分別名為bios及uefi；用來儲存不同架構用的菜單。
@@ -253,64 +257,3 @@ sudo filetool.sh -b #馬上寫回u盤了
 到時大家可以一個u盤，網啟你們網絡的全部電腦了。
 
 移動pxe完成了，哈哈。有興趣的朋友自己動動手吧。
-
-
-
-
-
-20190728我的改造如下：
-TC的啟動腳本改為在/etc/init.d/dhcp.sh，原因如下：
-1我是直接修改iso(Live)的corepure64.gz，啟動時不執行/opt/bootlocal.sh
-2啟動過快，有時網卡未初始化完成就執行bash，導致所需的工作失敗(如安裝dnsmasq)。
-
-
-
-#由於root禁止安裝，所以用root命令用戶名tc來安裝dnsmasq，如下：
-/bin/su tc -c '/usr/bin/tce-load -wi dnsmasq'; 
-
-
-sudo /bin/cat << EOF > /etc/dnsmasq.conf
-
-#Don't function as a DNS server:
-port=0
-
-#Log lots of extra information about DHCP transactions.
-log-dhcp
-
-enable-tftp
-tftp-root=/var/lib/tftpboot
-
-#Disable re-use of the DHCP servername and filename fields as extra
-#option space. That's to avoid confusing some old or broken DHCP clients.
-dhcp-no-override
-
-pxe-prompt="Press F8 for NBP (Net Boot Program) menu.Default kkpxe.", 10
-
-#0
-pxe-service=X86PC, "kkpxe for Legacy BIOS", undionly.kkpxe
-pxe-service=X86PC, "kpxe for Legacy BIOS", undionly.kpxe
-pxe-service=X86PC, "pxe for Legacy BIOS", undionly.pxe
-
-#2
-pxe-service=IA64_EFI, "Boot IA64_EFI", uefi/ipxe64.efi
-
-#6
-pxe-service=IA32_EFI, "Boot IA32_EFI", uefi/ipxe32.efi
-
-#7
-pxe-service=X86-64_EFI, "Boot X86-64_EFI", uefi/ipxe64.efi
-
-#8
-pxe-service=Xscale_EFI, "Boot BC_EFI", uefi/ipxe64.efi
-
-#9
-pxe-service=BC_EFI, "Boot BC_EFI", uefi/ipxe64.efi
-
-EOF
-
-ip=$(/sbin/ifconfig |grep -v 127 | grep 'inet ' | sed 's/^.*inet addr://g'    | sed 's/ *Bcast.*$//g') 
-
-echo "dhcp-range=$ip,proxy" >> /etc/dnsmasq.conf
-
-
-/usr/local/sbin/dnsmasq -9 &
