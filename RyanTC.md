@@ -1,4 +1,6 @@
-A基礎教學
+# Ryan TinyCore PXE server
+
+## A基礎教學
 
 基於
 1本帖是對多個發行版進行設定；
@@ -24,7 +26,7 @@ RH/DB安裝以minimal install即可。詳細硬盤劃分之類怕與本論壇目
 
 
 
-B安裝軟件並設定（俗稱軟件包管理器）
+## B安裝軟件並設定（俗稱軟件包管理器）
 現在的M$ Win10 當中，有個叫［Microsoft Store]的軟件，其作用就類似我們智能電話中Android的Google Play或IOS Iphone中的App Store（國行版閹割了的）。事實上Linux很早期已有此功能實現。
 
 各發行版因應自身設計，發展出不同的［線上管理器］：
@@ -87,7 +89,7 @@ EOF
 sudo mkdir -p /var/lib/tftpboot/syslinux
 
 
-C防火牆/selinux/apparmor
+## C防火牆/selinux/apparmor
 
 20190729:
 RH:
@@ -138,7 +140,7 @@ PXE環境「硬件」至此已經完成，只欠給客戶機的「軟件」，�
 
 
 
-E.  Syslinux
+## E.  Syslinux
 原包下載：https://mirrors.edge.kernel.org/ ... x/syslinux-6.03.zip
 
 簡介：Syslinux 提供現成的［pxelinux.0給bios］［syslinux.efi給uefi]的網啟軟件，我們只需要在下載，解壓縮至dnsmasq指定的/var/lib/tftpboot/內即可。
@@ -174,7 +176,7 @@ EOF
 
 
 
-F. IPXE
+## F. IPXE
 下載bios版ipxe:http://boot.ipxe.org/undionly.kpxe
 下載uefi版ipxe:http://boot.ipxe.org/ipxe.efi
 
