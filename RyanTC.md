@@ -159,7 +159,8 @@ sudo unzip /var/lib/tftpboot/syslinux-6.03.zip -d /var/lib/tftpboot/ #把syslinu
 ```  sudo cat << EOF > /var/lib/tftpboot/bios/core/pxelinux.cfg
 DEFAULT menu.c32
 LABEL bios
-KERNEL undionly.kpxe dhcp && chain http://10.10.10.10/NFW.ipxe
+KERNEL undionly.kpxe
+initrd http://10.10.10.10/NFW.ipxe
 EOF
 ``` 
 
@@ -169,7 +170,8 @@ EOF
 ```  sudo cat << EOF > /var/lib/tftpboot/efi64/efi/syslinux.cfg
 DEFAULT menu.c32
 LABEL uefi
-KERNEL ipxe.efi dhcp && chain http://10.10.10.10/NFW.ipxe
+KERNEL ipxe.efi
+initrd http://10.10.10.10/NFW.ipxe
 EOF
 ``` 
 
@@ -185,7 +187,8 @@ EOF
 
 又是如法炮製：
 RH/DB/TC:
-```  sudo wget http://boot.ipxe.org/undionly.kpxe -O /var/lib/tftpboot/bios/core/undionly.kpxe #下載bios版ipxe至/var/lib/tftpboot/bios/core/
+``` 
+sudo wget http://boot.ipxe.org/undionly.kpxe -O /var/lib/tftpboot/bios/core/undionly.kpxe #下載bios版ipxe至/var/lib/tftpboot/bios/core/
 sudo wget http://boot.ipxe.org/ipxe.efi -O /var/lib/tftpboot/efi64/efi/ipxe.efi #下載uefi版ipxe至/var/lib/tftpboot/efi64/efi/
 ``` 
 
