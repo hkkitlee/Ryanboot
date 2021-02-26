@@ -36,13 +36,16 @@
 | DB | apt search XXX | apt info YYY | apt install YYY | apt remove YYY |
 | TC | tce-ab (Enter後選"S"earch填入) | tce-ab ('S'earch完選取即可見) | tce-load -wi YYY | tce-remove YYY |
 
-XXX為你查詢關鍵字,查詢後得到軟件包的全名
-YYY就是包全名稱用以安裝/移除
+
+* XXX為你查詢關鍵字,查詢後得到軟件包的全名 
+* YYY就是包全名稱用以安裝/移除 
 
 這次我們需要dnsmasq(因為可連tftp一起啟動),所以:
-RH: sudo yum install dnsmasq -y
-DB: sudo apt install dnsmasq -y
-TC: sudo tce-load -wi dnsmasq
+| Linux | command |
+| --- | --- |
+| RH | sudo yum install dnsmasq -y |
+| DB | sudo apt install dnsmasq -y |
+| TC | sudo tce-load -wi dnsmasq |
 
 ***-y 為預先確認安裝***
 
@@ -52,7 +55,7 @@ TC: sudo tce-load -wi dnsmasq
 現在編輯dnsmasq的設定檔，其位置在/etc/dnsmasq.conf：
 
 RH/DB/TC:
-sudo cat << EOF > /etc/dnsmasq.conf:
+```  sudo cat << EOF > /etc/dnsmasq.conf:
 #Don't function as a DNS server:
 port=0 #不以DNS server作啟動
 
@@ -73,7 +76,7 @@ pxe-service=X86-64_EFI, "Boot X86-64", efi64/efi/syslinux.efi
 
 dhcp-range=192.168.2.5,proxy#*******這個就是設定為dhcp-proxy啟動，留意ip值是否適用,並沒有設子掩碼以盡量回應。
 EOF
-
+``` 
 
 上面dnsmasq.conf中，在/var/lib/tftpboot下創建兩個新的資料夾，分別名為bios及uefi；用來儲存不同架構用的菜單。
 
