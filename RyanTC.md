@@ -129,7 +129,8 @@ sudo mkdir -p /var/lib/tftpboot/syslinux
 還是實際點不扯太遠，看看如何啟動dnsmasq作一個pxe伺服「環境」。
 因應預設定檔是/etc/dnsmasq.conf，所以會馬上根據預設定檔來啟動。
 ```  RH/DB: sudo systemctl start dnsmasq
-TC: sudo dnsmasq -9 -d ``` 
+TC: sudo dnsmasq -9 -d
+``` 
 
 PXE環境「硬件」至此已經完成，只欠給客戶機的「軟件」，就是E和F了
 
@@ -155,7 +156,8 @@ sudo unzip /var/lib/tftpboot/syslinux-6.03.zip -d /var/lib/tftpboot/ #把syslinu
 DEFAULT menu.c32
 LABEL bios
 KERNEL undionly.kpxe dhcp && chain http://10.10.10.10/NFW.ipxe
-EOF ``` 
+EOF
+``` 
 
 
 #UEFI版菜單
@@ -164,7 +166,8 @@ EOF ```
 DEFAULT menu.c32
 LABEL uefi
 KERNEL ipxe.efi dhcp && chain http://10.10.10.10/NFW.ipxe
-EOF ``` 
+EOF
+``` 
 
 
 「軟件」的一半—Syslinux 已完成了
