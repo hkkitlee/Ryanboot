@@ -3,9 +3,8 @@
 ## A基礎教學
 
 基於
-1本帖是對多個發行版進行設定；
-2圖形視窗有多個版本（Gnome,KDE等等），也不是必須的；而且大部分伺服器取消圖形視窗為搾取性能；
-所以會是以「命令行」的方式進行；當然你也可以在圖形介面下開一個terminal做設定。
+* 1本帖是對多個發行版進行設定；
+* 2圖形視窗有多個版本（Gnome,KDE等等），也不是必須的；而且大部分伺服器取消圖形視窗為搾取性能；所以會是以「命令行」的方式進行；當然你也可以在圖形介面下開一個terminal做設定。
 
 出於個人感想：
 多年前，由於機器壓力過大，工作不勝負荷。被迫從M$ 的Windows轉往Linux當中，轉到Linux就是經常聽說可以把性能搾出油來；還有就是Raid了。沒錢買Raid卡的怎辦！Linux用軟件就可以做Raid了！卡也不用買（不要問我什麼是硬盤沉餘陣列......）。心想兩個本來就是操作系統，分別為何如此巨大！
@@ -14,14 +13,15 @@
 現在的Win10怪事頻生，可以越更新越出問題，無語了...反正學懂Linux是自己的。
 
 全文簡稱(大寫英文)：
-TC = TinyCore
-RH = RedHat 系列包括Centos / Fedora
-DB = Debian 系列包括Ubuntu
-M$ = Windows
+| TC | TinyCore |
+|---|---|
+| RH | RedHat 系列包括Centos / Fedora |
+| DB | Debian 系列包括Ubuntu |
+| M$ | Windows |
 
 關於安裝Linux
-TC只需下載影像檔並選擇安裝在U盤即可。
-RH/DB安裝以minimal install即可。詳細硬盤劃分之類怕與本論壇目的相違背，所以請自行參考、虛擬機、或用TC u盤。
+* TC只需下載影像檔並選擇安裝在U盤即可。
+* RH/DB安裝以minimal install即可。詳細硬盤劃分之類怕與本論壇目的相違背，所以請自行參考、虛擬機、或用TC u盤。
 
 
 
@@ -30,19 +30,11 @@ RH/DB安裝以minimal install即可。詳細硬盤劃分之類怕與本論壇目
 現在的M$ Win10 當中，有個叫［Microsoft Store]的軟件，其作用就類似我們智能電話中Android的Google Play或IOS Iphone中的App Store（國行版閹割了的）。事實上Linux很早期已有此功能實現。
 
 各發行版因應自身設計，發展出不同的［線上管理器］：
-Linux	尋找	查詢詳情	安裝	卸載移除
-RH	yum search XXX
-yum info YYY
-yum install YYY
-yum remove YYY
-DB	apt search XXX
-apt info YYY
-apt install YYY
-apt remove YYY
-TC	tce-ab (Enter後選"S"earch填入)
-tce-ab ('S'earch完選取即可見)
-tce-load -wi YYY
-tce-remove YYY
+| Linux	| 尋找 | 查詢詳情 | 安裝 | 卸載移除 |
+| --- | --- | --- | --- | --- |
+| RH | yum search XXX | yum info YYY | yum install YYY | yum remove YYY |
+| DB | apt search XXX | apt info YYY | apt install YYY | apt remove YYY |
+| TC | tce-ab (Enter後選"S"earch填入) | tce-ab ('S'earch完選取即可見) | tce-load -wi YYY | tce-remove YYY |
 
 XXX為你查詢關鍵字,查詢後得到軟件包的全名
 YYY就是包全名稱用以安裝/移除
