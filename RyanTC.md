@@ -87,28 +87,29 @@ sudo mkdir -p /var/lib/tftpboot/syslinux
 ## C防火牆/selinux/apparmor
 
 20190729:
-RH:
-sudo systemctl stop firewalld #關閉系統防火牆
-sudo systemctl start firewalld #啟動系統防火牆
-sudo firewall-cmd —add-port=4011/udp #臨時防火牆開放連線：udp的端口4011
-sudo firewall-cmd —add-port=4011/udp -permanent #永久防火牆開放連線：udp的端口4011
-其他port自己照著辦吧！
-sudo firewall-cmd —remove-port=4011/udp #取消喇
-sudo firewall-cmd —remove-port=4011/udp —permanent #永久的取消
+| command | 說明 |
+| --- | --- |
+| RH : |
+| sudo systemctl stop firewalld | #關閉系統防火牆 |
+| sudo systemctl start firewalld | #啟動系統防火牆 |
+| sudo firewall-cmd —add-port=4011/udp | #臨時防火牆開放連線：udp的端口4011 |
+| sudo firewall-cmd —add-port=4011/udp -permanent | #永久防火牆開放連線：udp的端口4011 |
+| --- | 其他port自己照著辦吧！ |
+| sudo firewall-cmd —remove-port=4011/udp | #取消喇 |
+| sudo firewall-cmd —remove-port=4011/udp —permanent | #永久的取消 |
+|   |
+| DB: |
+| sudo ufw disable | #關閉防火牆 |
+| sudo ufw enable | #啟動防火牆 |
+| sudo ufw default deny incoming | #設定防火牆預設禁止外來連線 |
+| sudo ufw allow 4011/udp | #防火牆開放連線：udp的端口4011 |
+| --- | 其他port自己照著辦吧！ |
+| sudo ufw deny 4011/udp | #取消開放連線 |
+| | |
+| TC: | 沒有防火牆 |
 
-DB:
-sudo ufw disable #關閉防火牆
-sudo ufw enable #啟動防火牆
-sudo ufw default deny incoming #設定防火牆預設禁止外來連線
-sudo ufw allow 4011/udp #防火牆開放連線：udp的端口4011
-其他port自己照著辦吧！
-sudo ufw deny 4011/udp #取消開放連線
-
-
-TC: 沒有防火牆
-
-RH的selinux:sudo setenforce 0
-DB的apparmor:sudo systemctl stop apparmor
+* RH的selinux:sudo setenforce 0
+* DB的apparmor:sudo systemctl stop apparmor
 
 
 ***暫時關閉防火牆,之後再追加啟動開放連線***
@@ -116,7 +117,7 @@ DB的apparmor:sudo systemctl stop apparmor
 
 
 
-D啟動dnsmasq（daemon mode)
+## D啟動dnsmasq（daemon mode)
 平常我們在windows啟動軟件,就時雙按圖標，出現程式介面或出現小圖示在時間旁邊。以Tiny Pxe server作例：
   
 相信大家也不陌生了。但有否留意HTTPd/DNSd最後為何有個d字？
@@ -127,8 +128,8 @@ D啟動dnsmasq（daemon mode)
 
 還是實際點不扯太遠，看看如何啟動dnsmasq作一個pxe伺服「環境」。
 因應預設定檔是/etc/dnsmasq.conf，所以會馬上根據預設定檔來啟動。
-RH/DB: sudo systemctl start dnsmasq
-TC: sudo dnsmasq -9 -d
+```  RH/DB: sudo systemctl start dnsmasq
+TC: sudo dnsmasq -9 -d ``` 
 
 PXE環境「硬件」至此已經完成，只欠給客戶機的「軟件」，就是E和F了
 
@@ -140,30 +141,30 @@ PXE環境「硬件」至此已經完成，只欠給客戶機的「軟件」，�
 
 簡介：Syslinux 提供現成的［pxelinux.0給bios］［syslinux.efi給uefi]的網啟軟件，我們只需要在下載，解壓縮至dnsmasq指定的/var/lib/tftpboot/內即可。
 
-RH/DB/TC: 
+```  RH/DB/TC: 
 sudo wget https://mirrors.edge.kernel.org/ ... x/syslinux-6.03.zip -O /var/lib/tftpboot/syslinux-6.03.zip #wget=下載至/var/lib/tftpboot/
 sudo unzip /var/lib/tftpboot/syslinux-6.03.zip -d /var/lib/tftpboot/ #把syslinux-6.03.zip解壓縮至/var/lib/tftpboot/
-
+``` 
 
 
 放好軟件syslinux了，是時候告訴syslinux的要做什麼工作，就是靠［菜單］；告知要chainload 我們的主角ipxe了。
 
 #BIOS版菜單
 
-sudo cat << EOF > /var/lib/tftpboot/bios/core/pxelinux.cfg
+```  sudo cat << EOF > /var/lib/tftpboot/bios/core/pxelinux.cfg
 DEFAULT menu.c32
 LABEL bios
 KERNEL undionly.kpxe dhcp && chain http://10.10.10.10/NFW.ipxe
-EOF
+EOF ``` 
 
 
 #UEFI版菜單
 
-sudo cat << EOF > /var/lib/tftpboot/efi64/efi/syslinux.cfg
+```  sudo cat << EOF > /var/lib/tftpboot/efi64/efi/syslinux.cfg
 DEFAULT menu.c32
 LABEL uefi
 KERNEL ipxe.efi dhcp && chain http://10.10.10.10/NFW.ipxe
-EOF
+EOF ``` 
 
 
 「軟件」的一半—Syslinux 已完成了
@@ -177,9 +178,9 @@ EOF
 
 又是如法炮製：
 RH/DB/TC:
-sudo wget http://boot.ipxe.org/undionly.kpxe -O /var/lib/tftpboot/bios/core/undionly.kpxe #下載bios版ipxe至/var/lib/tftpboot/bios/core/
+```  sudo wget http://boot.ipxe.org/undionly.kpxe -O /var/lib/tftpboot/bios/core/undionly.kpxe #下載bios版ipxe至/var/lib/tftpboot/bios/core/
 sudo wget http://boot.ipxe.org/ipxe.efi -O /var/lib/tftpboot/efi64/efi/ipxe.efi #下載uefi版ipxe至/var/lib/tftpboot/efi64/efi/
-
+``` 
 
 根據上面syslinux賦予ipxe的腳本是http://10.10.10.10/NFW.ipxe。那往後只需修改網頁伺服器內的這個腳本即可。不需要再行編譯了。
 除非網頁伺服的ip或script改名改位置，才需要更改TC內syslinux的設定檔了。
