@@ -1,4 +1,6 @@
 Changelog:
+20210301:副伺服菜單分為上”安裝”，下”即用Live”。並更改快捷鍵
+
 20210227:新增Slax 9 amd64/i386 (官方伺服網絡慢，需要耐心等候...)
 
 20210226:RyanTC Desktop with PXE & Data Rescue更新版本官方v12
