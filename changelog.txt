@@ -1,5 +1,5 @@
 Changelog:
-20210305:更新u盤RyanTC PXE Server［桌面，PXE，數據回復］，自動為最新官方版本。
+20210305:更新u盤RyanTC PXE Server［桌面，PXE，數據回復］，在線啟動最新官方版本。
 
 20210301:副伺服菜單分為上”安裝”，下”即用Live”。並更改快捷鍵
 
