@@ -36,6 +36,7 @@ Ryanboot ##小白云端系統啟動首頁
 |   |---(D) Install Parrot-Linux amd64/i386
 |   |---(E) Install Kali-Linux amd64/i386
 |   |---(F) Install openSUSE amd64/i386
+|   |---(G) IPFire amd64/i586
 |   |---Linux Live
 |   |---(1) Arch Linux amd64 Live with Option Installer
 |   |---(2) Tinycore amd64/i386
