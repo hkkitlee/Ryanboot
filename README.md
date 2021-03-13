@@ -41,4 +41,3 @@
 ## Special thx:
 * https://github.com/ValdikSS/Super-UEFIinSecureBoot-Disk
 * https://ipxe.org/
-* https://github.com/ipxe/pipxe
