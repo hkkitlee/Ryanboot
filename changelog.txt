@@ -1,4 +1,6 @@
 Changelog:
+20210319:(7) Rancher OS amd64/i386
+
 20210318:(6) Slackware amd64/i386 with Installer
 
 20210311:新增Install IPFire amd64/i586
