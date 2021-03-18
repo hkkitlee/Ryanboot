@@ -44,6 +44,7 @@ Ryanboot ##小白云端系統啟動首頁
 |   |---(4) SliTaz rolling amd64/i386 (Support by teasiu@bbs.wuyou.net)
 |   |---(5) Slax 9 amd64/i386
 |   |---(6) Slackware amd64/i386 with Installer
+|   |---(7) Rancher OS amd64/i386
 |   |---netboot.xyz
 |
 |---Free Memtest ##記憶體測試
