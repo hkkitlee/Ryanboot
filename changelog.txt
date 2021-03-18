@@ -1,4 +1,6 @@
 Changelog:
+20210318:(6) Slackware amd64/i386 with Installer
+
 20210311:新增Install IPFire amd64/i586
 
 20210305:更新u盤RyanTC PXE Server［桌面，PXE，數據回復］，在線啟動最新官方版本。
