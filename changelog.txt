@@ -1,4 +1,6 @@
 Changelog:
+20210321:(8) X-wrt amd64/i386
+
 20210319:(7) Rancher OS amd64/i386
 
 20210318:(6) Slackware amd64/i386 with Installer
