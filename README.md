@@ -36,6 +36,7 @@
 
 救援工具：https://github.com/hkkitlee/Ryanboot/blob/main/rescue.md
 
+# https://github.com/hkkitlee/Ryanboot-offical-linux-netbooter
 # https://github.com/hkkitlee/P2P-Boot-Linux
 
 ## Special thx:
