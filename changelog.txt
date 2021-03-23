@@ -1,4 +1,8 @@
 Changelog:
+20210323:(H) Install Mageia amd64/i586
+         (I) Install Devuan amd64/i586
+         wimboot 版本更新2.7.2
+
 20210321:(8) X-wrt amd64/i386
 
 20210319:(7) Rancher OS amd64/i386
