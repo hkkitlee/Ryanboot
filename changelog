@@ -1,0 +1,256 @@
+Changelog:
+20210617:修正了chainload gitee.com 時加載腳本、失敗後等當機問題。將自動重新載入。
+
+20210616:新增(Sort by Based on)
+
+20210517:新增國內鏡像源http://183.230.23.18:58000/ryanboot/
+
+20210514:
+(T) Parted Magic amd64 SF
+iPXE config
+
+20210512:
+(Q) Gparted-Live amd64 SF
+(R) Clonezilla Live/Lite Server amd64 SF
+(S) Redo-Rescue amd64 SF
+由於以上原版initrd不支援從https站 fetch filesystem.squashfs，新增選項—使用「注入方式」克服https啟動及免修改啟動文件；或可選繼續使用原版 fetch http/ftp/tftp。詳見原碼。
+
+20210510:(S) Redo-Rescue amd64 SF
+
+20210509:(R) Clonezilla Live/Lite Server amd64 SF
+https://clonezilla.org/show-live-doc-content.php?topic=clonezilla-live/doc/11_lite_server
+
+20210508:(Q) Gparted-Live amd64 SF
+
+20210506:論壇首頁、Github,Gitee,ryan.zip內新增version-編譯時間作更新參考
+isolinux啟動菜單設定與Grub2一樣，倒數10秒後自動啟動。
+圖文教學使用頁從新排版
+
+20210505:新增iso測試版：基本上所有功能保留
+新增自定義從gitee.com 引導腳本菜單（測試中）
+
+20210504:更新啟動gitee.com辦法,請重新下載
+
+20210503:(7) Install Rocky Linux via VNC by Kit
+
+20210502:(X) Rocky Linux 8 amd64
+
+20210430: 軟件新增ftp協議，有需要請重新下載
+
+20210429:(B) Install Fedora (Everything, Server, Silverblue) amd64 更新至34
+
+20210428:(P) Gentoo Linux Minimal amd64
+
+20210427:(O) Manjaro Linux Xfce amd64 Live with Installer
+
+20210426:(W) OracleLinux R8 Full amd64
+
+20210425:(N) Garuda Linux amd64 Live with Installer
+
+20210424:Add sourceforge.net for file hosting
+https://sourceforge.net/projects/ryanboot/files/
+
+20210423:(V) Proxmox VE OS amd64
+
+20210422:(M) BlackArch Linux amd64 Live with Installer Script
+
+20210421:(U) Clear Linux OS amd64
+
+20210420:(D) SuperGrub2 Disk
+
+20210419:(C) Memtest86 ##記憶體測試 (Upgrade to 7.5)
+
+20210416:(T) SteamOS Linux amd64
+
+20210413:(L) OneFileLinux (Boot from GitHub or Ryanboot Server)
+
+20210411:(S) ClearOS Linux amd64
+
+20210409:(R) Springdale Linux amd64
+
+20210402:(Q) PureOS Linux amd64
+	 Ubuntu update release Groovy & Hirsute 
+
+20210401:(B) Fedora Release (Everything, Server, Silverblue) choose
+	 (P) Absolute-Linux amd64
+
+20210331:(O) Install CloudLinux OS amd64
+
+20210330:(N) Install Centos Stream amd64
+	  新增下載： Github Gitee
+
+20210328:(M) Install openEuler amd64
+
+20210326:(K) Fatdog64 Linux amd64 (Live)
+	 (L) Install Koozali SME Server amd64
+
+20210325:(K) Install Fedora CoreOS amd64
+	 (J) Fedora CoreOS amd64 (Live)
+	 將菜單一分為二：Installer 和 Live並重新編排快捷鍵
+
+20210324:(J) Install AlmaLinux amd64
+         (9) Container Linux by flatcar amd64
+	 
+20210323:(H) Install Mageia amd64/i586
+         (I) Install Devuan amd64/i586
+         wimboot 版本更新2.7.2
+
+20210321:(8) X-wrt amd64/i386
+
+20210319:(7) Rancher OS amd64/i386
+
+20210318:(6) Slackware amd64/i386 with Installer
+
+20210311:新增Install IPFire amd64/i586
+
+20210305:更新u盤RyanTC PXE Server［桌面，PXE，數據回復］，在線啟動最新官方版本。
+
+20210301:副伺服菜單分為上”安裝”，下”即用Live”。並更改快捷鍵
+
+20210227:新增Slax 9 amd64/i386 (官方伺服網絡慢，需要耐心等候...)
+
+20210226:RyanTC Desktop with PXE & Data Rescue更新版本官方v12
+
+20210219:(G) Tinycore amd64/i386 #官方更新版本12
+
+20210211:新增：(J) Install openSUSE amd64/i386
+
+20210209:更新官方Debian Live 10.8
+
+20210208:感謝神雕師兄幫忙提供SliTaz核心等漢化啟動文件，完美啟動
+http://bbs.wuyou.net/forum.php?mod=redirect&goto=findpost&ptid=190810&pid=4236268&fromuid=678562
+
+20210205:(I) SliTaz rolling amd64/i386
+
+20210204:(H) Alpine amd64/i386
+
+20210125:增加後備下載；主伺服器下線時副伺服器（24/7）亦可提供官方Linux安裝。
+
+20210120-21:重新編寫Linux所有官方啟動代碼腳本。軟件更具彈性。新增項目功能：
+	自選就近鏡像源（默認：清華大學）Mirror site Selection
+	版本選擇 Version Selection.
+	架構自動識別 Auto select amd64/i386.
+	自選文字/圖像介面 tui/gtk Text/Graphical User Interface
+	核心參數輸入 Kernel Parameter
+
+刪除：Centos 8（壽終正寢，該死的紅帽！）。Oracle 8 支援差。
+新增：Tinycore
+20210120:Parrot-Linux , Kali-Linux 更新 
+|---(C) Install Ubuntu amd64/i386 @
+|---(D) Install Fedora amd64 @
+|---(E) Install Debian amd64/i386 @
+|---(F) Install Parrot-Linux amd64/i386
+|---(G) Install Kali-Linux amd64/i386
+|---(H) Install Arch Linux amd64
+|---(I) Install Arch Linux amd64 by script
+|---(J) Install Oracle Linux amd64
+
+auto select amd64/i386. @ Version Selection. tui/gtk Text/Graphical User Interface
+amd64/i386為自動判別。@為版本選擇。tui/gtk 文字/圖像交互介面。
+
+20210118:Tinycore成功升級成遠程救援，大大縮短啟動/救援時間。集合網啟伺服功能，可以一次救援多台電腦！！
+http://bbs.wuyou.net/forum.php?mod=redirect&goto=findpost&ptid=416055&pid=4219919&fromuid=678562
+
+20210117:更新Ubuntu bionic , focal; 更新可手動選擇版本。
+
+20210115:更新Debian最新版本bullseye ; Fedora最新版為33 ; 更新可手動選擇版本。
+
+20210111:從你的iPXE伺服器連接至小白雲端啟動系統。dhcp && chain --autofree http://hkkitlee.ddns.net:8999/chain.ipxe
+
+20210103:新增第二家網啟站接入點：https://netboot.xyz/
+
+20201229:新增：(M) Install Oracle Linux amd64 
+
+20201226: 增加Arch Linux ssl証書；菜單更新為可選就近鏡像站台加速啟動。使用前請重新下載。    
+
+20201225:新增：(K) Install Arch Linux amd64 
+
+20201217:軟件更新，有需要請重新下載
+
+20201207:更新官方Debian Live 10.7，vmlinuz-4.19.0-13-amd64  
+
+20201107:Redo Rescue Version 2.0.5 > 3.0.2  
+
+20201027:更新官方Debian Live 10.6，vmlinuz-4.19.0-11-amd64 
+
+20201012:Ryanboot - 小白云系統
+
+20201005:Redo rescue 2.0.5（自動被控項目）    @友联电脑
+
+20200908:bug fix - Kali Linux Parrot Linux netinstaller ssl error
+原廠Netinstaller ssl証書錯誤，安裝源取包失敗，導致安裝失敗。
+已更新用mini.iso啟動并測試回復正常。
+
+20200905:CentOS-8.2.2004
+
+20200808:更新p2p啟動官方Debian Live 10.5
+改成免登入官方網絡安裝：
+Official Linux Installer
+Install Centos8 amd64
+Centos8 live CD Rescue mode
+Install Current Ubuntu amd64
+Install Current Ubuntu i386
+Install Fedora32 amd64
+Install Debian10.4 amd64
+Install Current Parrot-Linux amd64
+Install Current Parrot-Linux i386
+Install Current Kali-Linux amd64
+Install Current Kali-Linux i386
+
+20200801:ipxe網絡啟動Linux上安裝/修改原版Windows(PE) ，源碼編譯wimtool-imagex
+Official Linux Installer
+Install Centos8 amd64
+Centos8 live CD Rescue mode
+Install Current Ubuntu amd64
+Install Current Ubuntu i386
+Install Fedora32 amd64
+Install Debian10.4 amd64
+Install Current Parrot-Linux amd64
+Install Current Parrot-Linux i386
+Install Current Kali-Linux amd64
+Install Current Kali-Linux i386
+
+20200615:RPBL Ryan P2P/BT Boot Linux (Debian Live Buster 10.x Server 服務端), 一鍵腳本
+
+20200612:更新官方Debian Live 10.4 並顯示核心版本信息 http://bbs.wuyou.net/forum.php?mod=viewthread&tid=420972&extra=page%3D1  
+
+20200421:Tinycore v11 desktop 桌面連 pxe 伺服器
+
+20200313:更新官方Debian Live 10.3
+
+20200108:更新官方Debian Live 10.2 http://bbs.wuyou.net/forum.php?mod=viewthread&tid=418347
+
+20191005:軟件更新，請重新下載
+
+20190929:官方Debian和RyanDebian改變為P2P/BT啟動以縮短時間
+原碼貼：http://bbs.wuyou.net/forum.php?mod=viewthread&tid=416359&extra=page%3D1
+發佈貼：http://bbs.wuyou.net/forum.php?mod=viewthread&tid=416616&extra=page%3D1
+      
+20190817:RyanTC增設iPXE編譯環境, 將會自動安裝編譯所需依賴檔案.
+iPXE原碼則git clone 到/ipxe下, 編譯指令則參考ipxe.org
+
+20190808:為提高可用性，iPXE加入兩個shell選項：
+1伺服器不在線直入shell。
+2iPXE選單加入手動進入shell。
+
+20190806:更新1，2失敗，返回上一版本；3已執行。
+1再嘗試修正Grub2（x86-64-efi/i386-efi/i386-pc)
+2CentOS7與ValdikSS的Grub2版本有出入，統一合併bios/uefi的grub.cfg在/EFI/grub2/下。
+3Grub菜單加入「關機」「重啟」項目。
+
+20190803:
+1修正GRUB2磁盤啟動項目,並縮小至「整影像檔」壓縮前37MB
+2Win連到網絡磁盤名稱:root 密碼:root
+3修正RyanTC Linux Samba權限及離線啟動
+
+20190802:16MB Linux RamOS PXE Server：RyanTC獨立運作版，M$手工更換引導文件
+
+20190729:關於bios啟動:可能是屏幕解像太高,為相容性現在降低至800X600,請再下載試一下*******
+
+20190728:完成RyanTC mini pxe server，設成全自動純文字。詳情帖：20190806更新:16MB RyanTC Linux RamOS PXE Server獨立版，M$ Win手工更換引導檔
+   
+20190726:新增移動Pxe伺服TinyCoreLinux,工程進行中。
+
+20190716:Debian Live：為加強對應舊網卡驅動，修改對initramfs啟動網卡之timeout，時間改為延長60秒。
+
+20190715:更新Debian 10 Buster Live for Data Rescue,最小3GB內存

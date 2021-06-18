@@ -1,0 +1,164 @@
+可啟動項目:
+
+
+Ryanboot ##小白云端系統啟動首頁
+├───(A) Boot by Your Network MAC address ##使用網卡唯一識別碼自動啟動
+├───(B) Login for Install or live LINUX/WINDOWS ##登入伺服器
+|	├───(A) Boot REMOTE CONTROL system Menu ##遠程被控項目
+|	|	├───(1) P2P BOOT Debian 10 Buster Installer or Live for Data Rescue  ##(P2P啟動RPBL；硬盤壞軌讀取，救援誤刪系統。)
+|	|	├───(2) RyanTC Tinycore Desktop with PXE & Data Rescue ##桌面、ipxe編譯環境、連 pxe 伺服器、硬盤壞軌讀取，救援誤刪系統。
+|	|	├───(3) Boot Win10PE_x64 w/VNC  ##(Winpe不用多說了吧)
+|	|	├───(4) Install Centos7 via VNC by Kit  ##(安裝Centos Linux)
+|	|	├───(5) Install Fedora via VNC by Kit ##(安裝Fedora Linux)
+|	|	├───(6) Boot Redo rescue for Backup / Restore ##桌面中使用partclone桌面的備份軟件
+|	|	├───(7) Install Rocky Linux via VNC by Kit
+|	|	└───(Ctrl-R) Return to First Menu ##返回首頁
+|	|
+|	└───(Ctrl-R) Return to First Menu ##返回首頁
+|
+├───(C) Ryanboot-offical-linux-netbooter or netboot.xyz (24/7)
+|	├───(A) List Installer
+|	|	├───(A) Install Ubuntu amd64/i386 @
+|	|	├───(B) Install Fedora (Everything, Server, Silverblue) amd64 @
+|	|	├───(C) Install Debian amd64/i386 @
+|	|	├───(D) Install Parrot-Linux amd64/i386
+|	|	├───(E) Install Kali-Linux amd64/i386
+|	|	├───(F) Install openSUSE amd64/i386
+|	|	├───(G) Install IPFire amd64/i586
+|	|	├───(H) Install Mageia amd64/i586
+|	|	├───(I) Install Devuan amd64/i586
+|	|	├───(J) Install AlmaLinux amd64
+|	|	├───(K) Install Fedora CoreOS amd64
+|	|	├───(L) Install Koozali SME Server amd64
+|	|	├───(M) Install openEuler amd64
+|	|	├───(N) Install Centos Stream amd64
+|	|	├───(O) Install CloudLinux OS amd64
+|	|	├───(P) Absolute-Linux amd64
+|	|	├───(Q) PureOS Linux amd64
+|	|	├───(R) Springdale Linux amd64
+|	|	├───(S) ClearOS Linux amd64
+|	|	├───(T) SteamOS Linux amd64
+|	|	├───(U) Clear Linux OS amd64
+|	|	├───(V) Proxmox VE OS amd64
+|	|	├───(W) OracleLinux R8 Full amd64
+|	|	└───(X) RockyLinux 8 amd64
+|	|
+|	├───(B) List Live
+|	|	├───(A) Arch Linux amd64 Live with Option Installer
+|	|	├───(B) Tinycore amd64/i386
+|	|	├───(C) Alpine amd64/i386
+|	|	├───(D) SliTaz rolling amd64/i386 (Support by teasiu@bbs.wuyou.net)
+|	|	├───(E) Slax 9 amd64/i386
+|	|	├───(F) Slackware amd64/i386 with Installer
+|	|	├───(G) Rancher OS amd64/i386
+|	|	├───(H) X-wrt amd64/i386
+|	|	├───(I) Container Linux by flatcar amd64
+|	|	├───(J) Fedora CoreOS amd64
+|	|	├───(K) Fatdog64 Linux amd64
+|	|	├───(L) OneFileLinux (Boot from GitHub or Ryanboot Server)
+|	|	├───(M) BlackArch Linux amd64 Live with Installer Script
+|	|	├───(N) Garuda Linux Wayfire amd64 Live with Installer
+|	|	├───(O) Manjaro Linux Xfce amd64 Live with Installer
+|	|	├───(P) Gentoo Linux Minimal amd64
+|	|	├───(Q) Gparted-Live amd64 SF
+|	|	├───(R) Clonezilla Live/Lite Server amd64 SF
+|	|	├───(S) Redo-Rescue amd64 SF
+|	|	└───(T) Parted Magic amd64 SF
+|	|
+|	├───(C) List by Based on
+|	|	├───RedHat
+|	|	|	├───RockyLinux 8 installer amd64
+|	|	|	├───OracleLinux R8 Full installer amd64 SF
+|	|	|	├───Centos Stream installer amd64
+|	|	|	├───Fedora installer (Everything, Server, Silverblue) amd64
+|	|	|	├───Fedora CoreOS installer amd64
+|	|	|	├───Fedora CoreOS live amd64
+|	|	|	├───AlmaLinux installer amd64
+|	|	|	├───Springdale Linux installer amd64
+|	|	|	├───Koozali SME Server installer amd64
+|	|	|	├───ClearOS Linux installer amd64
+|	|	|	├───CloudLinux OS installer amd64
+|	|	|	└───openEuler installer amd64
+|	|	|
+|	|	├───Debian
+|	|	|	├───Debian installer amd64/i386
+|	|	|	├───Ubuntu installer amd64/i386
+|	|	|	├───Kali-Linux installer amd64/i386
+|	|	|	├───Parrot-Linux installer amd64/i386
+|	|	|	├───Proxmox VE OS installer amd64 SF
+|	|	|	├───Slax live amd64/i386
+|	|	|	├───Devuan installer amd64/i386
+|	|	|	├───PureOS Linux installer amd64
+|	|	|	├───SteamOS Linux installer amd64
+|	|	|	├───Gparted-Live live amd64 SF
+|	|	|	├───Clonezilla Live/Lite Server live amd64 SF
+|	|	|	├───Redo-Rescue live amd64 SF
+|	|	|	└───Parted Magic live amd64 SF
+|	|	|
+|	|	├───Arch
+|	|	|	├───Arch Linux live amd64 with Option Installer Script
+|	|	|	├───Manjaro Linux Xfce live amd64 with Installer SF
+|	|	|	├───BlackArch Linux live amd64 with Installer Script SF
+|	|	|	└───Garuda Linux Wayfire live amd64 with Installer SF
+|	|	|
+|	|	├───Gentoo
+|	|	|	├───Gentoo Linux Minimal live amd64 SF
+|	|	|	└───Container Linux by flatcar live amd64
+|	|	|
+|	|	├───openSUSE
+|	|	|	└───openSUSE installer amd64/i386
+|	|	|
+|	|	├───Slackware
+|	|	|	├───Slackware live amd64/i386 with Installer
+|	|	|	└───Absolute-Linux installer amd64
+|	|	|
+|	|	├───Busybox
+|	|	|	├───Tinycore live amd64/i386
+|	|	|	├───SliTaz rolling live amd64/i386 (Support by teasiu@bbs.wuyou.net)
+|	|	|	├───Alpine live amd64/i386
+|	|	|	└───X-wrt live amd64/i386
+|	|	|
+|	|	├───Mandriva
+|	|	|	└───Mageia installer amd64/i586
+|	|	|
+|	|	├───Puppy
+|	|	|	└───Fatdog64 Linux live amd64
+|	|	|
+|	|	└───Others
+|	|		├───IPFire installer amd64/i586
+|	|		├───Rancher OS live amd64/i386Clear Linux OS installer amd64 SF
+|	|		└───OneFileLinux live
+|	|
+|	├───(D) Memtest86 ##記憶體測試
+|	|
+|	├───(E) SuperGrub2 Disk
+|	|
+|	├───Background config
+|	├───cpair config
+|	├───iPXE config
+|	|
+|	├───PowerOff
+|	├───Reboot
+|	|
+|	└───Chainload to boot from...
+|		├───Ryanboot
+|		├───Ryanboot-P2PBitTorrent-Boot-Linux
+|		├───https://gitee.com/xxx
+|		└───netboot.xyz
+|
+├───(D) Ryanboot-P2PBitTorrent-Boot-Linux  ##BT/p2p啟動Debian官方桌面版本項目
+|	├───(0) Lxqt
+|	├───(1) Gnome
+|	├───(2) Kde
+|	├───(3) Lxde
+|	├───(4) Mate
+|	├───(5) Standard
+|	├───(6) Xfce
+|	└───(7) Cinnamon
+|
+└───Memtest86 ##記憶體測試
+
+
+
+auto select amd64/i386. Release /  Version Selection. tui/gtk Text/Graphical User Interface
+amd64/i386為自動判別。@為版本選擇。tui/gtk 文字/圖像交互介面。

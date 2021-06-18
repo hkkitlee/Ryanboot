@@ -1,0 +1,12 @@
+#!ipxe
+dhcp
+goto start
+:start
+iseq ${platform} efi && goto uefi ||
+iseq ${platform} pcbios && goto legacy ||
+
+:uefi
+chain --autofree https://github.com/hkkitlee/Ryanboot/raw/main/ipxe64.efi || chain --autofree https://gitee.com/hkkitlee/Ryanboot/raw/main/ipxe64.efi || chain --autofree http://hkkitlee.ddns.net:8999/ipxe64.efi ||goto uefi
+
+:legacy
+chain --autofree https://github.com/hkkitlee/Ryanboot/raw/main/ipxe.lkrn || chain --autofree https://gitee.com/hkkitlee/Ryanboot/raw/main/ipxe.lkrn || chain --autofree http://hkkitlee.ddns.net:8999/ipxe.lkrn || goto legacy
