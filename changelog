@@ -1,4 +1,6 @@
 Changelog:
+20210618:更新iPXE版本 1.21.1+ (g51c88)
+
 20210617:修正了chainload gitee.com 時加載腳本、失敗後等當機問題。將自動重新載入。
 
 20210616:新增(Sort by Based on)
