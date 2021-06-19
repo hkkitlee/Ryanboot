@@ -1,4 +1,6 @@
 Changelog:
+20210619:新增下載：主伺服器 備用 Github Gitee mirror0 SourceForge
+
 20210618:更新iPXE版本 1.21.1+ (g51c88)
 
 20210617:修正了chainload gitee.com 時加載腳本、失敗後等當機問題。將自動重新載入。
