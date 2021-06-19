@@ -2,7 +2,7 @@
 # 拒絕病毒！拒絕流氓！拒絕廣告！
 
 * 主頁/index: https://hkkitlee.ddns.net:9000/
-* 下載：[主機下載](https://hkkitlee.ddns.net:9000/ryan.zip) [備用下載](http://hkkitlee.ddns.net:8999/ryan.zip) [Github](https://github.com/hkkitlee/Ryanboot/raw/main/ryan.zip) [Gitee](https://gitee.com/hkkitlee/Ryanboot/raw/main/ryan.zip)
+* 下載：[主機下載](https://hkkitlee.ddns.net:9000/ryan.zip) [備用下載](http://hkkitlee.ddns.net:8999/ryan.zip) [Github](https://github.com/hkkitlee/Ryanboot/raw/main/ryan.zip) [Gitee](https://gitee.com/hkkitlee/Ryanboot/raw/main/ryan.zip) [SourceForge](https://sourceforge.net/projects/ryanboot/files/ryan.zip/download) [mirror0](http://183.230.23.18:58000/ryanboot/ryan.zip)
 * 論壇/forum: http://bbs.wuyou.net/forum.php?mod=viewthread&tid=415206&extra=page%3D1
 * 詳細圖文教學使用:[Github](https://github.com/hkkitlee/Ryanboot/blob/main/setup.md) [Gitee](https://gitee.com/hkkitlee/Ryanboot/blob/main/setup.md)
 * Changlog:[Github](https://github.com/hkkitlee/Ryanboot/blob/main/changelog) [Gitee](https://gitee.com/hkkitlee/Ryanboot/blob/main/changelog)
