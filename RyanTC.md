@@ -96,11 +96,13 @@ sudo mkdir -p /var/lib/tftpboot/syslinux
 | RH : |
 | sudo systemctl stop firewalld | #關閉系統防火牆 |
 | sudo systemctl start firewalld | #啟動系統防火牆 |
-| sudo firewall-cmd —add-port=4011/udp | #臨時防火牆開放連線：udp的端口4011 |
-| sudo firewall-cmd —add-port=4011/udp -permanent | #永久防火牆開放連線：udp的端口4011 |
+| sudo firewall-cmd \-\-reload | #防火牆重新讀取設定 |
+| sudo firewall-cmd \-\-add-port=4011/udp | #臨時防火牆開放連線：udp的端口4011 |
+| sudo firewall-cmd \-\-add-port=4011/udp \-\-permanent | #永久防火牆開放連線：udp的端口4011 |
+| sudo firewall-cmd \-\-add-port=22/tcp \-\-permanent | #永久ssh開放連線：tcp的端口22 |
 | --- | 其他port自己照著辦吧！ |
-| sudo firewall-cmd —remove-port=4011/udp | #取消喇 |
-| sudo firewall-cmd —remove-port=4011/udp —permanent | #永久的取消 |
+| sudo firewall-cmd \-\-remove-port=4011/udp | #取消喇 |
+| sudo firewall-cmd \-\-remove-port=4011/udp \-\-permanent | #永久的取消 |
 |   |
 | DB: |
 | sudo ufw disable | #關閉防火牆 |
