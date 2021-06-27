@@ -18,21 +18,21 @@ Ryanboot ##小白云端系統啟動首頁
 |
 ├───(C) Ryanboot-offical-linux-netbooter or netboot.xyz (24/7)
 |	├───(A) List Installer
-|	|	├───(A) Install Ubuntu amd64/i386 @
-|	|	├───(B) Install Fedora (Everything, Server, Silverblue) amd64 @
-|	|	├───(C) Install Debian amd64/i386 @
-|	|	├───(D) Install Parrot-Linux amd64/i386
-|	|	├───(E) Install Kali-Linux amd64/i386
-|	|	├───(F) Install openSUSE amd64/i386
-|	|	├───(G) Install IPFire amd64/i586
-|	|	├───(H) Install Mageia amd64/i586
-|	|	├───(I) Install Devuan amd64/i586
-|	|	├───(J) Install AlmaLinux amd64
-|	|	├───(K) Install Fedora CoreOS amd64
-|	|	├───(L) Install Koozali SME Server amd64
-|	|	├───(M) Install openEuler amd64
-|	|	├───(N) Install Centos Stream amd64
-|	|	├───(O) Install CloudLinux OS amd64
+|	|	├───(A) Ubuntu amd64/i386 @
+|	|	├───(B) Fedora (Everything, Server, Silverblue) amd64 @
+|	|	├───(C) Debian amd64/i386 @
+|	|	├───(D) Parrot-Linux amd64/i386
+|	|	├───(E) Kali-Linux amd64/i386
+|	|	├───(F) openSUSE amd64/i386
+|	|	├───(G) IPFire amd64/i586
+|	|	├───(H) Mageia amd64/i586
+|	|	├───(I) Devuan amd64/i586
+|	|	├───(J) AlmaLinux amd64
+|	|	├───(K) Fedora CoreOS amd64
+|	|	├───(L) Koozali SME Server amd64
+|	|	├───(M) openEuler amd64
+|	|	├───(N) Centos Stream amd64
+|	|	├───(O) CloudLinux OS amd64
 |	|	├───(P) Absolute-Linux amd64
 |	|	├───(Q) PureOS Linux amd64
 |	|	├───(R) Springdale Linux amd64
@@ -42,7 +42,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	├───(V) Proxmox VE OS amd64
 |	|	├───(W) OracleLinux R8 Full amd64
 |	|	├───(X) RockyLinux 8 amd64
-|	|	└───(Y) Proxmox Backup Server OS amd64 SF
+|	|	├───(Y) Proxmox Backup Server OS amd64 SF
+|	|	└───(Z) Proxmox MailGateway OS amd64 SF
 |	|
 |	├───(B) List Live
 |	|	├───(A) Arch Linux amd64 Live with Option Installer
@@ -87,7 +88,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	|	├───Kali-Linux installer amd64/i386
 |	|	|	├───Parrot-Linux installer amd64/i386
 |	|	|	├───Proxmox VE OS installer amd64 SF
-|	|	|	├───(Y) Proxmox Backup Server OS amd64 SF
+|	|	|	├───Proxmox Backup Server OS amd64 SF
+|	|	|	├───Proxmox MailGateway OS amd64 SF
 |	|	|	├───Slax live amd64/i386
 |	|	|	├───Devuan installer amd64/i386
 |	|	|	├───PureOS Linux installer amd64
