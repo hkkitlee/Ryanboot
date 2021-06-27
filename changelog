@@ -1,4 +1,8 @@
 Changelog:
+20210627:
+新增(Y) Proxmox Backup 1.1-1 OS amd64 SF
+更新Distribution Release:(V) Proxmox VE 6.4-1 OS amd64
+
 20210623:重新編寫「啟動源」選項部分：由全手輸網址變成選擇項；並繼續支持手動輸入，用以支援私人雲。感謝@chenall 提點
 
 20210619:新增下載：主伺服器 備用 Github Gitee mirror0 SourceForge

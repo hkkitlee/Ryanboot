@@ -41,7 +41,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	├───(U) Clear Linux OS amd64
 |	|	├───(V) Proxmox VE OS amd64
 |	|	├───(W) OracleLinux R8 Full amd64
-|	|	└───(X) RockyLinux 8 amd64
+|	|	├───(X) RockyLinux 8 amd64
+|	|	└───(Y) Proxmox Backup 1.1-1 OS amd64 SF
 |	|
 |	├───(B) List Live
 |	|	├───(A) Arch Linux amd64 Live with Option Installer
