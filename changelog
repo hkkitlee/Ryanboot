@@ -1,4 +1,6 @@
 Changelog:
+20210628:新增(Z) Proxmox MailGateway OS amd64 SF
+
 20210627:
 新增(Y) Proxmox Backup Server 1.1-1 OS amd64 SF
 更新Distribution Release:(V) Proxmox VE 6.4-1 OS amd64
