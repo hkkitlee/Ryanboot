@@ -1,4 +1,6 @@
 Changelog:
+20210630:新增鏡像源(mirror1) http://jackieojackie.ddns.net:8999/ryanboot/
+
 20210628:新增(Z) Proxmox MailGateway OS amd64 SF
 
 20210627:
@@ -15,7 +17,7 @@ Changelog:
 
 20210616:新增(Sort by Based on)
 
-20210517:新增國內鏡像源http://183.230.23.18:58000/ryanboot/
+20210517:新增國內鏡像源(mirror0) http://183.230.23.18:58000/ryanboot/
 
 20210514:
 (T) Parted Magic amd64 SF
