@@ -65,7 +65,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	├───(Q) Gparted-Live amd64 SF
 |	|	├───(R) Clonezilla Live/Lite Server amd64 SF
 |	|	├───(S) Redo-Rescue amd64 SF
-|	|	└───(T) Parted Magic amd64 SF
+|	|	├───(T) Parted Magic amd64 SF
+|	|	└───(U) Ubuntu Kylin amd64 SF
 |	|
 |	├───(C) List by Based on
 |	|	├───RedHat
@@ -88,8 +89,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	|	├───Kali-Linux installer amd64/i386
 |	|	|	├───Parrot-Linux installer amd64/i386
 |	|	|	├───Proxmox VE OS installer amd64 SF
-|	|	|	├───Proxmox Backup Server OS amd64 SF
-|	|	|	├───Proxmox MailGateway OS amd64 SF
+|	|	|	├───Proxmox Backup Server OS installer amd64 SF
+|	|	|	├───Proxmox MailGateway OS installer amd64 SF
 |	|	|	├───Slax live amd64/i386
 |	|	|	├───Devuan installer amd64/i386
 |	|	|	├───PureOS Linux installer amd64
@@ -97,7 +98,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	|	├───Gparted-Live live amd64 SF
 |	|	|	├───Clonezilla Live/Lite Server live amd64 SF
 |	|	|	├───Redo-Rescue live amd64 SF
-|	|	|	└───Parted Magic live amd64 SF
+|	|	|	├───Parted Magic live amd64 SF
+|	|	|	└───Ubuntu Kylin live amd64 SF
 |	|	|
 |	|	├───Arch
 |	|	|	├───Arch Linux live amd64 with Option Installer Script
