@@ -18,61 +18,62 @@ Ryanboot ##小白云端系統啟動首頁
 |
 ├───(C) Ryanboot-offical-linux-netbooter or netboot.xyz (24/7)
 |	├───(A) List Installer
-|	|	├───(A) Ubuntu amd64/i386 @
-|	|	├───(B) Fedora (Everything, Server, Silverblue) amd64 @
-|	|	├───(C) Debian amd64/i386 @
-|	|	├───(D) Parrot-Linux amd64/i386
-|	|	├───(E) Kali-Linux amd64/i386
-|	|	├───(F) openSUSE amd64/i386
-|	|	├───(G) IPFire amd64/i586
-|	|	├───(H) Mageia amd64/i586
-|	|	├───(I) Devuan amd64/i586
-|	|	├───(J) AlmaLinux amd64
-|	|	├───(K) Fedora CoreOS amd64
-|	|	├───(L) Koozali SME Server amd64
-|	|	├───(M) openEuler amd64
-|	|	├───(N) Centos Stream amd64
-|	|	├───(O) CloudLinux OS amd64
-|	|	├───(P) Absolute-Linux amd64
-|	|	├───(Q) PureOS Linux amd64
-|	|	├───(R) Springdale Linux amd64
-|	|	├───(S) ClearOS Linux amd64
-|	|	├───(T) SteamOS Linux amd64
-|	|	├───(U) Clear Linux OS amd64
-|	|	├───(V) Proxmox VE OS amd64
-|	|	├───(W) OracleLinux R8 Full amd64
-|	|	├───(X) RockyLinux 8 amd64
-|	|	├───(Y) Proxmox Backup Server OS amd64 SF
-|	|	└───(Z) Proxmox MailGateway OS amd64 SF
+|	|	├───(a) Ubuntu amd64/i386 @
+|	|	├───(b) Fedora (Everything, Server, Silverblue) amd64 @
+|	|	├───(c) Debian amd64/i386 @
+|	|	├───(d) Parrot-Linux amd64/i386
+|	|	├───(e) Kali-Linux amd64/i386
+|	|	├───(f) openSUSE amd64/i386
+|	|	├───(g) IPFire amd64/i586
+|	|	├───(h) Mageia amd64/i586
+|	|	├───(i) Devuan amd64/i586
+|	|	├───(j) AlmaLinux amd64
+|	|	├───(k) Fedora CoreOS amd64
+|	|	├───(l) Koozali SME Server amd64
+|	|	├───(m) openEuler amd64
+|	|	├───(n) Centos Stream amd64
+|	|	├───(o) CloudLinux OS amd64
+|	|	├───(p) Absolute-Linux amd64
+|	|	├───(q) PureOS Linux amd64
+|	|	├───(r) Springdale Linux amd64
+|	|	├───(s) ClearOS Linux amd64
+|	|	├───(t) SteamOS Linux amd64
+|	|	├───(u) Clear Linux OS amd64
+|	|	├───(v) Proxmox VE OS amd64
+|	|	├───(w) OracleLinux R8 Full amd64
+|	|	├───(x) RockyLinux 8 amd64
+|	|	├───(y) Proxmox Backup Server OS amd64 (Mirror)
+|	|	├───(z) Proxmox MailGateway OS amd64 (Mirror)
+|	|	└───(A) Vzlinux 8 amd64 (Mirror)
 |	|
 |	├───(B) List Live
-|	|	├───(A) Arch Linux amd64 Live with Option Installer
-|	|	├───(B) Tinycore amd64/i386
-|	|	├───(C) Alpine amd64/i386
-|	|	├───(D) SliTaz rolling amd64/i386 (Support by teasiu@bbs.wuyou.net)
-|	|	├───(E) Slax 9 amd64/i386
-|	|	├───(F) Slackware amd64/i386 with Installer
-|	|	├───(G) Rancher OS amd64/i386
-|	|	├───(H) X-wrt amd64/i386
-|	|	├───(I) Container Linux by flatcar amd64
-|	|	├───(J) Fedora CoreOS amd64
-|	|	├───(K) Fatdog64 Linux amd64
-|	|	├───(L) OneFileLinux (Boot from GitHub or Ryanboot Server)
-|	|	├───(M) BlackArch Linux amd64 Live with Installer Script
-|	|	├───(N) Garuda Linux Wayfire amd64 Live with Installer
-|	|	├───(O) Manjaro Linux Xfce amd64 Live with Installer
-|	|	├───(P) Gentoo Linux Minimal amd64
-|	|	├───(Q) Gparted-Live amd64 SF
-|	|	├───(R) Clonezilla Live/Lite Server amd64 SF
-|	|	├───(S) Redo-Rescue amd64 SF
-|	|	├───(T) Parted Magic amd64 SF
-|	|	├───(U) Ubuntu Kylin Live with Installer amd64 SF
-|	|	└───(V) Ubuntu Live with Installer amd64 SF
+|	|	├───(a) Arch Linux amd64 Live with Option Installer
+|	|	├───(b) Tinycore amd64/i386
+|	|	├───(c) Alpine amd64/i386
+|	|	├───(d) SliTaz rolling amd64/i386 (Support by teasiu@bbs.wuyou.net) (Mirror)
+|	|	├───(e) Slax 9 amd64/i386
+|	|	├───(f) Slackware amd64/i386 with Installer
+|	|	├───(g) Rancher OS amd64/i386
+|	|	├───(h) X-wrt amd64/i386
+|	|	├───(i) Container Linux by flatcar amd64
+|	|	├───(j) Fedora CoreOS amd64
+|	|	├───(k) Fatdog64 Linux amd64
+|	|	├───(l) OneFileLinux (Boot from GitHub or Mirror)
+|	|	├───(m) BlackArch Linux amd64 Live with Installer Script
+|	|	├───(n) Garuda Linux Wayfire amd64 Live with Installer
+|	|	├───(o) Manjaro Linux Xfce amd64 Live with Installer
+|	|	├───(p) Gentoo Linux Minimal amd64
+|	|	├───(q) Gparted-Live amd64 (Mirror)
+|	|	├───(r) Clonezilla Live/Lite Server amd64 (Mirror)
+|	|	├───(s) Redo-Rescue amd64 (Mirror)
+|	|	├───(t) Parted Magic amd64 (Mirror)
+|	|	├───(u) Ubuntu Kylin Live with Installer amd64 (Mirror)
+|	|	└───(v) Ubuntu Live with Installer amd64 (Mirror)
 |	|
 |	├───(C) List by Based on
 |	|	├───RedHat
 |	|	|	├───RockyLinux 8 installer amd64
-|	|	|	├───OracleLinux R8 Full installer amd64 SF
+|	|	|	├───OracleLinux R8 Full installer amd64 (Mirror)
 |	|	|	├───Centos Stream installer amd64
 |	|	|	├───Fedora installer (Everything, Server, Silverblue) amd64
 |	|	|	├───Fedora CoreOS installer amd64
@@ -82,35 +83,36 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	|	├───Koozali SME Server installer amd64
 |	|	|	├───ClearOS Linux installer amd64
 |	|	|	├───CloudLinux OS installer amd64
-|	|	|	└───openEuler installer amd64
+|	|	|	├───openEuler installer amd64
+|	|	|	└───Vzlinux 8 amd64 (Mirror)
 |	|	|
 |	|	├───Debian
 |	|	|	├───Debian installer amd64/i386
 |	|	|	├───Ubuntu installer amd64/i386
 |	|	|	├───Kali-Linux installer amd64/i386
 |	|	|	├───Parrot-Linux installer amd64/i386
-|	|	|	├───Proxmox VE OS installer amd64 SF
-|	|	|	├───Proxmox Backup Server OS installer amd64 SF
-|	|	|	├───Proxmox MailGateway OS installer amd64 SF
+|	|	|	├───Proxmox VE OS installer amd64 (Mirror)
+|	|	|	├───Proxmox Backup Server OS installer amd64 (Mirror)
+|	|	|	├───Proxmox MailGateway OS installer amd64 (Mirror)
 |	|	|	├───Slax live amd64/i386
 |	|	|	├───Devuan installer amd64/i386
 |	|	|	├───PureOS Linux installer amd64
 |	|	|	├───SteamOS Linux installer amd64
-|	|	|	├───Gparted-Live live amd64 SF
-|	|	|	├───Clonezilla Live/Lite Server live amd64 SF
-|	|	|	├───Redo-Rescue live amd64 SF
-|	|	|	├───Parted Magic live amd64 SF
-|       |       |	├───Ubuntu Kylin live with Installer amd64 SF
-|	|	|	└───Ubuntu Live with Installer amd64 SF
+|	|	|	├───Gparted-Live live amd64 (Mirror)
+|	|	|	├───Clonezilla Live/Lite Server live amd64 (Mirror)
+|	|	|	├───Redo-Rescue live amd64 (Mirror)
+|	|	|	├───Parted Magic live amd64 (Mirror)
+|       |       |	├───Ubuntu Kylin live with Installer amd64 (Mirror)
+|	|	|	└───Ubuntu Live with Installer amd64 (Mirror)
 |	|	|
 |	|	├───Arch
 |	|	|	├───Arch Linux live amd64 with Option Installer Script
-|	|	|	├───Manjaro Linux Xfce live amd64 with Installer SF
-|	|	|	├───BlackArch Linux live amd64 with Installer Script SF
-|	|	|	└───Garuda Linux Wayfire live amd64 with Installer SF
+|	|	|	├───Manjaro Linux Xfce live amd64 with Installer (Mirror)
+|	|	|	├───BlackArch Linux live amd64 with Installer Script (Mirror)
+|	|	|	└───Garuda Linux Wayfire live amd64 with Installer (Mirror)
 |	|	|
 |	|	├───Gentoo
-|	|	|	├───Gentoo Linux Minimal live amd64 SF
+|	|	|	├───Gentoo Linux Minimal live amd64 (Mirror)
 |	|	|	└───Container Linux by flatcar live amd64
 |	|	|
 |	|	├───openSUSE
@@ -122,7 +124,7 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	|
 |	|	├───Busybox
 |	|	|	├───Tinycore live amd64/i386
-|	|	|	├───SliTaz rolling live amd64/i386 (Support by teasiu@bbs.wuyou.net)
+|	|	|	├───SliTaz rolling live amd64/i386 (Support by teasiu@bbs.wuyou.net) (Mirror)
 |	|	|	├───Alpine live amd64/i386
 |	|	|	└───X-wrt live amd64/i386
 |	|	|
@@ -134,7 +136,7 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	|
 |	|	└───Others
 |	|		├───IPFire installer amd64/i586
-|	|		├───Rancher OS live amd64/i386Clear Linux OS installer amd64 SF
+|	|		├───Rancher OS live amd64/i386Clear Linux OS installer amd64 (Mirror)
 |	|		└───OneFileLinux live
 |	|
 |	├───(D) Memtest86 ##記憶體測試
