@@ -1,4 +1,6 @@
 Changelog:
+20210707:更新Distribution Release:(V) Proxmox VE 7.0-1 OS amd64
+
 20210706:新增(A) Vzlinux 8 amd64 (Mirror)
 由於能啟動的系統數量比快捷鍵26個英文字母還多，所以重編所有的快捷鍵由小寫到大寫。
 
