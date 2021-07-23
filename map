@@ -45,7 +45,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	├───(y) Proxmox Backup Server OS amd64 (Mirror)
 |	|	├───(z) Proxmox MailGateway OS amd64 (Mirror)
 |	|	├───(A) Vzlinux 8 amd64 (Mirror)
-|	|	└───(B) EuroLinux 8 amd64 (Mirror)
+|	|	├───(B) EuroLinux 8 amd64 (Mirror)
+|	|	└───(C) Amahi 11 amd64 (Mirror)
 |	|
 |	├───(B) List Live
 |	|	├───(a) Arch Linux amd64 Live with Option Installer
@@ -88,7 +89,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	|	├───CloudLinux OS installer amd64
 |	|	|	├───openEuler installer amd64
 |	|	|	├───Vzlinux 8 installer amd64 (Mirror)
-|	|	|	└───EuroLinux 8 installer amd64 (Mirror)
+|	|	|	├───EuroLinux 8 installer amd64 (Mirror)
+|	|	|	└───Amahi 11 installer amd64 (Mirror)
 |	|	|
 |	|	├───Debian
 |	|	|	├───Debian installer amd64/i386
