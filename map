@@ -72,7 +72,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	├───(u) Ubuntu Kylin Live with Installer amd64 (Mirror)
 |	|	├───(v) Ubuntu Live with Installer amd64 (Mirror)
 |	|	├───(w) Minimal Linux Live amd64 (Mirror)
-|	|	└───(x) Live-Raizo amd64 (Mirror)
+|	|	├───(x) Live-Raizo amd64 (Mirror)
+|	|	└───(y) SystemRescue amd64 (Mirror)
 |	|
 |	├───(C) List by Based on
 |	|	├───RedHat
@@ -116,7 +117,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	|	├───Arch Linux live amd64 with Option Installer Script
 |	|	|	├───Manjaro Linux Xfce live amd64 with Installer (Mirror)
 |	|	|	├───BlackArch Linux live amd64 with Installer Script (Mirror)
-|	|	|	└───Garuda Linux Wayfire live amd64 with Installer (Mirror)
+|	|	|	├───Garuda Linux Wayfire live amd64 with Installer (Mirror)
+|	|	|	└───SystemRescue amd64 (Mirror)
 |	|	|
 |	|	├───Gentoo
 |	|	|	├───Gentoo Linux Minimal live amd64 (Mirror)
