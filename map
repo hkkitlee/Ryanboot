@@ -76,7 +76,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	├───(y) SystemRescue amd64 (Mirror)
 |	|	├───(z) EndeavourOS Linux amd64 Live with Installer (Mirror)
 |	|	├───(A) Bluestar Linux amd64 Live with Installer (Mirror)
-|	|	└───(B) Grml Linux amd64 Live (Mirror)
+|	|	├───(B) Grml Linux amd64 Live (Mirror)
+|	|	└───(C) Linux-Lite amd64 Live (Mirror)
 |	|
 |	├───(C) List by Based on
 |	|	├───RedHat
@@ -115,7 +116,8 @@ Ryanboot ##小白云端系統啟動首頁
 |       |       |	├───Ubuntu Kylin live with Installer amd64 (Mirror)
 |	|	|	├───Ubuntu Live with Installer amd64 (Mirror)
 |	|	|	├───Live-Raizo amd64 (Mirror)
-|	|	|	└───Grml Linux amd64 Live (Mirror)
+|	|	|	├───Grml Linux amd64 Live (Mirror)
+|	|	|	└───Linux-Lite amd64 Live (Mirror)
 |	|	|
 |	|	├───Arch
 |	|	|	├───Arch Linux live amd64 with Option Installer Script
