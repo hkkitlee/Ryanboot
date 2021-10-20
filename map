@@ -82,7 +82,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	├───(E) Mabox amd64 (Mirror)
 |	|	├───(F) ArcoLinux amd64 (Mirror)
 |	|	├───(G) Debian-Live xfce amd64/i386
-|	|	└───(H) Snal amd64 (Mirror)
+|	|	├───(H) Snal amd64 (Mirror)
+|	|	└───(I) RebornLinux amd64 (Mirror)
 |	|
 |	├───(C) List by Based on
 |	|	├───RedHat
@@ -136,7 +137,8 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	|	├───Archman Linux amd64 Live with Installer (Mirror)
 |	|	|	├───Mabox amd64 (Mirror)
 |	|	|	├───ArcoLinux amd64 (Mirror)
-|	|	|	└───Snal amd64 (Mirror)
+|	|	|	├───Snal amd64 (Mirror)
+|	|	|	└───RebornLinux amd64 (Mirror)
 |	|	|
 |	|	├───Gentoo
 |	|	|	├───Gentoo Linux Minimal live amd64 (Mirror)
