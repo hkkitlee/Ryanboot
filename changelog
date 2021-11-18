@@ -1,4 +1,11 @@
 Changelog:
+20211118:更新Distribution Release:
+(v) Proxmox-ve 7.1-1 OS amd64 (Mirror)
+(x) Rocky Linux 8.5 amd64
+(w) OracleLinux R8 U5 8.5 Full amd64
+(f) Slackware Linux 15.0 RC1
+
+
 20211115:更新Distribution Release:(A) Bluestar Linux amd64 Live with Installer (Mirror) bluestar-linux-5.15.2-2021.11.13-x86_64
 
 20211113:更新Distribution Release:
