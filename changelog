@@ -1,4 +1,10 @@
 Changelog:
+20211130:更新Distribution Release:
+(r) Clonezilla Live/Lite Server clonezilla-live-20211116-impish-amd64 SF
+(h) Snal amd64 (Mirror) snallinux-1.11-x86_64
+(B) EuroLinux 8 amd64 EL-8.5-x86_64-20211126 (Mirror)
+(g) IPFire ipfire-2.27.x86_64-full-core161
+
 20211125:更新Distribution Release:(H) Alpine 3.14.2 amd64/i386 alpine-standard-3.15.0-x86_64
 
 20211124:更新Distribution Release:(A) Bluestar Linux amd64 Live with Installer (Mirror) bluestar-linux-5.15.4-2021.11.22-x86_64
