@@ -1,4 +1,14 @@
 Changelog:
+20211130:
+更新Distribution Release:
+(z) EndeavourOS Linux amd64 Live with Installer (Mirror) EndeavourOS_Atlantis-21_4
+(a) Arch Linux amd64 Live with Option Installer Script archlinux-2021.12.01-x86_64
+(f) Install openSUSE amd64/i386 openSUSE-Leap-15.4
+(n) CentOS amd64 (2-8)
+
+新增Add Distribution:
+(D) Centos-Stream amd64 (9-stream)
+
 20211130:更新Distribution Release:
 (r) Clonezilla Live/Lite Server clonezilla-live-20211116-impish-amd64 SF
 (h) Snal amd64 (Mirror) snallinux-1.11-x86_64
