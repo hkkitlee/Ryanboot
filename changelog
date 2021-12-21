@@ -1,4 +1,11 @@
 Changelog:
+20211221:更新Distribution Release:
+(A) Bluestar Linux amd64 Live with Installer (Mirror) bluestar-linux-5.15.10-2021.12.19-x86_64
+(o) Manjaro Linux Xfce amd64 Live with Installer (Mirror) manjaro-xfce-21.2.0-211220-linux515
+(y) SystemRescue-8.05-amd64 systemrescue-8.07-amd64
+(e) Kali-Linux amd64/i386 kali-linux-2021.4-live-amd64
+(c) Debian amd64/i386 debian-11.2.0
+
 20211215:更新Distribution Release:(A) Bluestar Linux amd64 Live with Installer (Mirror) bluestar-linux-5.15.7-2021.12.13-x86_64
 
 20211205:
