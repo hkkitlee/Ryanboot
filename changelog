@@ -1,5 +1,8 @@
 Changelog:
-20211221:更新Distribution Release:
+20211221:
+新增Add Distribution:
+(E) Univention Corporate Server amd64 UCS_5.0-1-amd64
+更新Distribution Release:
 (A) Bluestar Linux amd64 Live with Installer (Mirror) bluestar-linux-5.15.10-2021.12.19-x86_64
 (o) Manjaro Linux Xfce amd64 Live with Installer (Mirror) manjaro-xfce-21.2.0-211220-linux515
 (y) SystemRescue-8.05-amd64 systemrescue-8.07-amd64
