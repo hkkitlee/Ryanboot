@@ -1,4 +1,13 @@
 Changelog:
+
+20220103:
+新增鏡像源(sourceforge1) http://downloads.sourceforge.net/project/ryanboot/
+更新Distribution Release:
+(J) Rescuezilla amd64 (Mirror) rescuezilla-2.3.1-64bit.impish
+(n) Garuda-Wayfire-linux-zen amd64 Live with Installer garuda-wayfire-linux-zen-220101
+(h) Snal amd64 (Mirror) snallinux-1.12-x86_64
+(a) Arch Linux amd64 Live with Option Installer Script archlinux-2022.01.01-x86_64
+
 20220102:更新Distribution Release:
 (F) ArcoLinux amd64 (Mirror) arcolinuxl-v22.01.10-x86_64
 (C) Linux-Lite amd64 Live (Mirror) linux-lite-5.8-rc1-64bit
