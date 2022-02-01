@@ -64,7 +64,7 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	├───(k) Fatdog64 Linux amd64
 |	|	├───(l) OneFileLinux (Boot from GitHub or Mirror)
 |	|	├───(m) BlackArch Linux amd64 Live with Installer Script
-|	|	├───(n) Garuda Linux Wayfire amd64 Live with Installer
+|	|	├───(n) Garuda Linux Xfce amd64 Live with Installer
 |	|	├───(o) Manjaro Linux Xfce amd64 Live with Installer
 |	|	├───(p) Gentoo Linux Minimal amd64
 |	|	├───(q) Gparted-Live amd64 (Mirror)
@@ -138,7 +138,7 @@ Ryanboot ##小白云端系統啟動首頁
 |	|	|	├───Arch Linux live amd64 with Option Installer Script
 |	|	|	├───Manjaro Linux Xfce live amd64 with Installer (Mirror)
 |	|	|	├───BlackArch Linux live amd64 with Installer Script (Mirror)
-|	|	|	├───Garuda Linux Wayfire live amd64 with Installer (Mirror)
+|	|	|	├───Garuda Linux Xfce live amd64 with Installer (Mirror)
 |	|	|	├───SystemRescue amd64 (Mirror)
 |	|       |       ├───EndeavourOS Linux live amd64 with Installer (Mirror)
 |	|       |       ├───Bluestar Linux live amd64 with Installer (Mirror)
