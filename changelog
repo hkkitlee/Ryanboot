@@ -1,4 +1,11 @@
 Changelog:
+20220211:
+新增 New Add Distribution:
+(M) PlopLinux amd64 (Mirror) ploplinux-22.1-x86_64
+更新Distribution Release:
+(e) Slax amd64/i386 slax-64bit-11.2.0-rc1
+(y) SystemRescue amd64 systemrescue-9.01-amd64
+
 20220209:更新Distribution Release:
 (g) IPFire ipfire-2.27.x86_64-full-core163
 
