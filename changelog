@@ -1,4 +1,9 @@
 Changelog:
+20220213:
+更新Distribution Release:
+(A) Bluestar Linux amd64 Live with Installer (Mirror) bluestar-linux-5.16.8-2022.02.10-x86_64
+(K) ArchLabs amd64 with Installer (Mirror) archlabs-2022.02.12-x86_64
+
 20220211:
 新增 New Add Distribution:
 (M) PlopLinux amd64 (Mirror) ploplinux-22.1-x86_64
