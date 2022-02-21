@@ -1,4 +1,11 @@
 Changelog:
+20220221:
+新增同步論壇:e酷 
+https://bbs.ecoo.top/forum.php?mod=viewthread&tid=1&extra=page%3D1
+更新Distribution Release:
+(H) Snal amd64 (Mirror) snallinux-1.14-x86_64
+(A) Bluestar Linux amd64 Live with Installer (Mirror) bluestar-linux-5.16.10-2022.02.17-x86_64
+
 20220215:更新Distribution Release:
 (e) Slax amd64/i386 slax-64bit-11.2.0-rc2
 (e) Kali-Linux amd64/i386 kali-linux-2022.1-amd64
