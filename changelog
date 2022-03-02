@@ -1,4 +1,11 @@
 Changelog:
+20220302:
+新增 New Add Distribution:
+(N) Hyperbola amd64 (Mirror) hyperbola-milky-way-v0.4-dual
+更新Distribution Release:
+(e) Slax amd64/i386 slax-64bit-11.2.1
+(B) EuroLinux amd64 (Mirror) EL-9.0-x86_64-20220301
+
 20220301:更新Distribution Release:
 (o) Manjaro Linux Xfce amd64 Live with Installer (Mirror) manjaro-xfce-21.2.4-220227-linux515
 (H) Snal amd64 (Mirror) snallinux-1.15-x86_64
