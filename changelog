@@ -1,4 +1,10 @@
 Changelog:
+20220407:
+更新Distribution Release:
+(c) Alpine 3.15.3 amd64/i386 alpine-standard-3.15.4-x86_64
+(E) Mabox amd64 (Mirror) mabox-linux-22.04-Herbolth-220403-linux515
+(A) Bluestar Linux amd64 Live with Installer (Mirror) bluestar-linux-5.17.1-2022.03.30-x86_64
+
 20220401:
 更新Distribution Release:
 (H) Snal amd64 (Mirror) snallinux-1.16-x86_64
