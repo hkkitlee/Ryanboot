@@ -1,7 +1,7 @@
 Changelog:
 20220407:
 更新Distribution Release:
-(c) Alpine 3.15.3 amd64/i386 alpine-standard-3.15.4-x86_64
+(c) Alpine amd64/i386 alpine-standard-3.15.4-x86_64
 (E) Mabox amd64 (Mirror) mabox-linux-22.04-Herbolth-220403-linux515
 (A) Bluestar Linux amd64 Live with Installer (Mirror) bluestar-linux-5.17.1-2022.03.30-x86_64
 
@@ -11,7 +11,7 @@ Changelog:
 (g) IPFire ipfire-2.27.x86_64-full-core166
 (A) Bluestar Linux amd64 Live with Installer (Mirror) bluestar-linux-5.17.1-2022.03.21-x86_64
 (q) GParted Live 1.4.0-1 amd64 (Mirror)
-(c) Alpine 3.15.3 amd64/i386 alpine-standard-3.15.2-x86_64
+(c) Alpine amd64/i386 alpine-standard-3.15.2-x86_64
 (e) Slax amd64/i386 slax-64bit-11.3.0
 
 20220327:
