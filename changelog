@@ -1,5 +1,11 @@
 Changelog:
-20211020:
+20220419:
+更新Distribution Release:
+(D) Archman Linux amd64 Live with Installer (Mirror) archman-2022.04.18-x86_64
+(o) Manjaro Linux Xfce amd64 Live with Installer (Mirror) manjaro-xfce-21.2.6-220416-linux515
+(A) Bluestar Linux amd64 Live with Installer (Mirror) bluestar-linux-5.17.2-2022.04.13-x86_64
+
+20220412:
 更新Distribution Release:
 (I) RebornLinux amd64 (Mirror) RebornOS-2022.04.10-x86_64
 (z) EndeavourOS Linux amd64 Live with Installer (Mirror) EndeavourOS_Apollo_22_1
