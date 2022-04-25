@@ -1,4 +1,12 @@
 Changelog:
+20220425:
+更新Distribution Release:
+(C) Linux-Lite amd64 Live (Mirror) linux-lite-6.0-rc1-64bit
+(n) Garuda-Xfce-linux amd64 Live with Installer garuda-xfce-linux-lts-220329
+(H) Snal amd64 (Mirror) snallinux-1.17-x86_64
+(u) Ubuntu Kylin live with Installer 优麒麟 ubuntukylin-22.04-desktop-amd64
+(v) Ubuntu live with Installer ubuntu-22.04-desktop-amd64
+
 20220421:
 更新Distribution Release:
 (J) Install AlmaLinux amd64 AlmaLinux-9.0-beta-x86_64
