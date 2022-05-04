@@ -1,4 +1,11 @@
 Changelog:
+20220504:
+更新Distribution Release:
+(a) Arch Linux amd64 Live with Option Installer Script archlinux-2022.05.01-x86_64
+(F) ArcoLinux amd64 (Mirror) arcolinuxl-v22.05.02-x86_64
+(g) IPFire ipfire-2.27.x86_64-full-core167
+(A) Bluestar Linux amd64 Live with Installer (Mirror) bluestar-linux-5.17.4-2022.04.26-x86_64
+
 20220425:
 更新Distribution Release:
 (C) Linux-Lite amd64 Live (Mirror) linux-lite-6.0-rc1-64bit
